@@ -3,7 +3,11 @@ import Main from './Main'
 
 export default function App(){
     return (
-        <Main/>
+        <>
+            <h2 className='title'>birthday Reminder</h2>
+            <Main/>
+        </>
+        
     )
 }
 

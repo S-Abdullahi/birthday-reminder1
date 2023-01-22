@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: orange;
+    font-size: 62.5%;
+    position: relative;
+}
+
+.title{
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card{
+    background-color: rgba(138, 112, 9, 0.979);
+    width: 30%;
+    padding: 2rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.card-count{
+    margin-bottom: 1rem;
+}
+
+.card-item{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius:4px;
+    background-color: white;
+}
+
+
+.card-image{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.card-detail{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 100%;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    border: 0;
+    background-color: orange;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
